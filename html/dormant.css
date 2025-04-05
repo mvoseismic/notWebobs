@@ -1,0 +1,22 @@
+BODY {background-color: #FFFFFF}
+
+H1 {font: bold 16pt Arial, sans-serif}
+H2 {font: bold 14pt Arial, sans-serif}
+
+BODY {font: 12pt Times, serif; margin:50;padding:0}
+P {font: 12pt Times, serif}
+EM {font: italic 12pt Times, serif}
+B {font: bold 12pt Times, serif}
+TT {font: 12pt Courier}
+.little {font: italic 10pt Times, serif}
+
+table
+{
+	padding-bottom:15px
+}
+TH {font bold 12pt Arial, sans-serif; text-align: left; vertical-align: top; padding-top: 15px}
+TD {font 12pt Arial, sans-serif; text-align: left; vertical-align: top}
+
+A:link {color:  green}
+A:visited {color: green}
+A:active {color: green}

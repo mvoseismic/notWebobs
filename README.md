@@ -1,23 +1,29 @@
 # notWebobs
 
-Web pages for seismic information.
+MVO seismic web pages for datailed information and testing.
 
 ## Description
 
 Various scripts written for the webobs installation at MVO. Available at http://webobs.mvo.ms:8080/.
 
-
-## Scripts
+## HTML pages
 
 | File       | Function |
 | -------------| -------------------|
-| *check_holdings.pl* | Script to update *holdings_detailed.txt*. |
-| *check_holdings.sh* | Script to run *check_holdings.pl* and update *holdings.txt*. Runs once a day as a cronjob.|
-| *find_img.pl* | Standalone Perl script to find plot files (only used in debugging).|
-| *seismic_monthly_plot_viewer.cgi* | Displays monthly montages of helicorders. Only used in *notWebobs*.|
-| *seismic_plot_viewer.cgi* | Main script.|
-| *seismic_plot_viewer_mob.cgi* | Temporary version of script for use on mobile devices.|
-| *update_mlocate.pl* | Script to update mlocate databases. Runs once a day as a cronjob.|
+| *mbly6twit.html, mbly24twit.html* | Test of public-facing helicorder plot with embedded Twitter feed.Reports disk space on important data shares. |
+| *fetchplot.html* | Create and show megaplots (in development).|
+| *SeismicityDiary.html* | Web version of SeismicityDiary.xlxs, with links to plots.|
+| *status.html* | Seismic system status.|
+
+## CGI Scripts
+
+| File       | Function |
+| -------------| -------------------|
+| *disk_space.cgi* | Reports disk space on important data shares. |
+| *fetchMegaplot.cgi* | Create and show megaplots (in development).|
+| *mvo_alarms_last.cgi* | List recent alarms created by seismic system.|
+| *seismic_monthly_plot_viewer.cgi* | Displays monthly montages of helicorders.|
+| *seismic_plot_viewer\*.cgi* | Versions of seismic_plot_viewer for tests.|
 
 
 ## Author
@@ -35,4 +41,4 @@ https://services.dormant.org/
 
 ## License
 
-This project is licensed to Montserrat Volcano Observatory.
+This project is the property of Montserrat Volcano Observatory.

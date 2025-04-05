@@ -1,0 +1,59 @@
+<HTML>
+<HEAD>
+<TITLE>MBLY seismic data</TITLE>
+<meta content="60" http-equiv="REFRESH"/>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+       .center-fit {
+        	max-width: 100%;
+         	max-height: 100vh;
+        	margin: auto;
+	}
+    </style>
+</HEAD>
+<BODY>
+<TABLE>
+<TBODY>
+<TR valign="top">
+<TD>
+	<img class="center-fit" src=" http://webobs.mvo.ms/cgi-bin/wws_heli_viewer.cgi?proxyImage=1&code=MBLY_HHZ_MV_00&w=1200&h=1000&tc=30&t1=-24&t2=now&tz=America/Montserrat&lb=1&sc=1&br=20000&cv=200000">
+	<SMALL>
+	<HR>
+	The plot shows the last 24 hours of data from an MVO seismic station (MBLY) located at Lee's Yard, Montserrat.
+	<BR>
+	This page is for information only. Any interpretation given here is provisional and subject to change.
+	<LI>Each horizontal trace shows 30 minutes of ground movement data, sampled 200 times every second.</LI>
+	<LI>The latest data is on the bottom line.</LI>
+	<LI>Large signals are cropped and plotted in red</LI>
+	<LI>Local time is shown on the left margin of the plot. </LI>
+	<LI>The time of a signal is obtained by adding the time along the bottom scale to the time for that line given in the left margin.</LI>
+	<LI>Seismologists like to work in Universal Time (UTC), which is shown on the right margin of the plot.</LI>
+	<LI>The twitter feed on the right has comments from MVO about interesting signals, with their times of occurrence. You won't get comments for every single blip and wiggle.</LI>
+	<LI>This page updates automatically every minute.</LI>
+	<LI><A HREF="mbly6twit.html">Plot showing the last six hours of data</A></LI>
+	</SMALL>
+</TD>
+<TD width="400px">
+	<a class="twitter-timeline" data-width="400" data-height="1000" href="https://twitter.com/https://twitter.com/MvoSeis?ref_src=twsrc%5Etfw">MVO Seismologist</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+	<HR>
+	<SMALL><I>If there is no Twitter feed above, it's Twitter's fault. Try reloading the page.</I></SMALL>
+	<IMG SRC="mbly.png">
+    <HR>
+    <SMALL>
+    The plot shown here mimics the plot drawn when you wrap a piece of paper around a rotating drum and slowly move the pen along its length.  We still call it a "helicorder" or "drum" plot.
+    </SMALL>
+    <BR>
+    <IMG SRC="drumrecorder.jpg">
+
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+</BODY>

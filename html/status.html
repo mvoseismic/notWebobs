@@ -1,0 +1,222 @@
+<HTML>
+<HEAD>
+	<TITLE>Status of MVO Seismic Monitoring</TITLE>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" type="text/css" href="/dormant.css">
+</HEAD>
+<BODY>
+<H1>Status of MVO Seismic Monitoring</H1>
+
+<EM>Note: Some of the links only work if you are on the MVO network.</EM>
+<BR>
+<EM>Note: Some of the plots may not be displayed in Firefox. Press Shift - Reload.</EM>
+
+<HR>
+
+<H2>Data Acquisition</H2>
+
+<TABLE style="width:100%">
+	<COLGROUP>
+		<COL span="1" style="width: 40%;">
+		<COL span="1" style="width: 60%;">
+	</COLGROUP>
+	<TBODY>
+		<TR>
+			<TD><A HREF="/mvofls2/monitoring_data/status/Seismic_status_report">Weekly status report</A></TD>
+			<TD>Text files.</TD>
+		</TR>
+		<TR>
+			<TH>Earthworm Status</TH>
+		</TR>
+		<TR>
+			<TD>
+				<A HREF="/mvofls2/monitoring_data/statusMVOmonitoring/data/earthworm/status-winston1.txt">winston1</A>
+				<BR>
+				<A HREF="/mvofls2/monitoring_data/statusMVOmonitoring/data/earthworm/status-earthworm03.txt">earthworm03</A>
+				<BR>
+			</TD>
+			<TD>Updated every 5 minutes. All statuses should be <EM>Alive</EM>.
+				Except maybe <EM>sgram</EM> on earthworm03, which crashes frequently.
+			</TD>
+		</TR>
+
+		<TR>
+			<TH>Triggers and Alarms</TH>
+		</TR>
+		<TR>
+			<TD>
+				<A HREF="/earthworm00/events">Triggered event list on earthworm03</A>
+				<BR>
+				<A HREF="/mvofls2/monitoring_data/events">Triggered event list on mvofls2</A>
+			</TD>
+			<TD>
+				These should be the same (more or less).
+			</TD>
+		</TR>
+		<TR>
+			<TD>
+				<A HREF="/cgi-bin/mvo_alarms_last.cgi">Last 25 alarms sent from winston1</A>
+			</TD>
+			<TD>
+				Updated every 5 minutes. Includes daily test alarm at 01:00 UTC.
+			</TD>
+		</TR>
+
+		<TR>
+			<TH>Earthworm Continuous Data</TH>
+		</TR>
+		<TR>
+			<TD>
+				<A HREF="/mvofls2/monitoring_data/statusMVOmonitoring/data/rbuffers/rbuffers-winston1.txt">Last 15 days rbuffers on acquisition computer winston1</A>
+				<BR>
+				<A HREF="/mvofls2/monitoring_data/statusMVOmonitoring/data/rbuffers/rbuffers-mvofls2.txt">Last 15 days rbuffers on server mvofls2</A>
+			</TD>
+			<TD>Updated every hour, on the hour.
+			</TD>
+		</TR>
+		<TR>
+			<TD><A HREF="/mvofls2/monitoring_data/statusMVOmonitoring/data/rbuffers/wav-mvofls2.txt">Counts of WAV files on mvofls2</A>
+			</TD>
+			<TD>
+				Updated daily at 03:00 UTC.
+			</TD>
+		</TR>
+
+		<TR>
+			<TH>winston1 Waveserver</TH>
+		</TR>
+		<TR>
+			<TD>
+				<A HREF="http://172.17.102.60:16022/menu">Menu (live)</A>
+				<BR>
+				<A HREF="/mvofls2/monitoring_data/statusMVOmonitoring/data/earthworm/getmenu-winston1.txt">Menu (updated every 5 minutes)</A>
+			</TD>
+			<TD>
+				Lists by station and channel the earliest and latest data available in the server.
+		</TR>
+		<TR>
+			<TD>
+			<A HREF="http://172.17.102.60:16022/status">Server status</A>
+			<BR>
+			<A HREF="http://172.17.102.60:16022/">Server home</A>
+			</TD>
+		</TR>
+
+		<TR>
+			<TH>winston2 Waveserver</TH>
+		</TR>
+		<TR>
+			<TD>
+				<A HREF="http://172.17.102.65:16022/menu">Menu (live)</A>
+				<BR>
+				<A HREF="/mvofls2/monitoring_data/statusMVOmonitoring/data/earthworm/getmenu-winston2.txt">Menu (updated every 5 minutes)</A>
+			</TD>
+			<TD>
+				Lists by station and channel the earliest and latest data available in the server.
+		</TR>
+		<TR>
+			<TD>
+			<A HREF="http://172.17.102.65:16022/status">Server status</A>
+			<BR>
+			<A HREF="http://172.17.102.65:16022/">Server home</A>
+			</TD>
+		</TR>
+
+	</TBODY>
+	</TBODY>
+</TABLE>
+
+<HR>
+
+<H2>Station Performance</H2>
+<TABLE style="width:100%">
+	<COLGROUP>
+		<COL span="1" style="width: 40%;">
+		<COL span="1" style="width: 60%;">
+	</COLGROUP>
+	<TBODY>
+		<TR>
+			<TD>
+			<A HREF="/mvofls2/monitoring_data/status/Seismic_stations_status">Weekly station status report</A></TD>
+			<TD>DON'T EDIT THE SPREADSHEET!!
+			</TD>
+		</TR>
+		<TR>
+			<TD>
+			<A HREF="/mvofls2/monitoring_data/statusMVOMonitoring/reports/systemNotesExtract">System status reports</A></TD>
+			<TD>Extracted from statusMVOmonitoring.xls</TD>
+			</TD>
+		</TR>
+		<TR>
+			<TD>
+			<A HREF="/mvofls2/monitoring_data/status/wws_da">Daily data availability</A></TD>
+			<TD>Plots and a table.
+			</TD>
+		</TR>
+		<TR>
+			<TD><A HREF="/mvofls2/monitoring_data/status/sniffwave/plots">Data latency (earthworm)</A></TD>
+			<TD>
+				Updated every 10 minutes. 
+			</TD>
+		</TR>
+		<TR>
+			<TD><A HREF="/mvofls2/monitoring_data/status/wws_latency">Data latency (waveserver)</A></TD>
+			<TD>
+				Updated every 5 minutes. Each plot shows the latency (age) of data arriving at one station for the last 3, 12 or 72 hours.
+			</TD>
+		</TR>
+		<TR>
+			<TD><A HREF="/mvofls2/monitoring_data/status/Seismic_stations_status/radianLogFiles">Radian log files</A></TD>
+			<TD>
+				Downloaded once a week.
+			</TD>
+		</TR>
+		<TR>
+			<TD><A HREF="/mvofls2/monitoring_data/noise_PPSD/plots">Daily noise plots</A></TD>
+			<TD>
+				Created every day.
+			</TD>
+		</TR>
+	</TBODY>
+</TABLE>
+
+<HR>
+
+<H2>Computers and Network</H2>
+<TABLE style="width:100%">
+	<COLGROUP>
+		<COL span="1" style="width: 40%;">
+		<COL span="1" style="width: 60%;">
+	</COLGROUP>
+	<TBODY>
+		<TR>
+			<TD><A HREF="/mvofls2/monitoring_data/status/computers/winston1.txt">winston1</A></TD>
+			<TD>Updated every hour.</TD>
+		</TR>
+		<TR>
+			<TD><A HREF="/cgi-bin/disk_space.cgi">Disk space on mvofls2 and earthworm03</A></TD>
+			<TD>
+			</TD>
+		</TR>
+		<TR>
+			<TD><A HREF="/mvofls2/monitoring_data/status/sysstat/reports">Daily sar/sysstat reports for selected computers</A></TD>
+			<TD>Updated daily at 00:30 UTC</TD>
+		</TR>
+		<TR>
+			<TD><A HREF="/mvofls2/monitoring_data/status/nmap/nmap.html">Network scan (nmap)</A></TD>
+			<TD>Updated daily at 08:00 UTC</TD>
+		</TR>
+		<TR>
+			<TD><A HREF="/mvofls2/monitoring_data/status/ping_test/figs">Network ping tests</A></TD>
+			<TD>Shows last 14 days. Targets are pinged every minute, plots are updated hourly</TD>
+		</TR>
+	</TBODY>
+</TABLE>
+
+
+<HR>
+
+<P align="right">
+<EM>R.C. Stewart, 26 August 2021</EM>
+</P>
+</BODY>

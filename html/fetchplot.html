@@ -1,0 +1,95 @@
+<HTML>
+<HEAD>
+	<TITLE>not Webobs</TITLE>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" type="text/css" href="/dormant.css">
+</HEAD>
+<BODY>
+
+<H1>fetchPlot</H1>
+<em>This won't work</em>
+<hr>
+
+<form>
+
+	<table>
+
+	<tr>
+	<td width="33.3%">
+	<b>Date/time of event (UTC): </b>
+	<br>
+	<input type="date" name="eventdate" />
+	<input type="time" name="eventtime" />
+	</td>
+
+	<td width="33.3%">
+	<b>Seconds before event to plot: </b>
+	<br>
+	<select name="windowpre" id="windowpre">
+	<option value="10">10</option>
+	<option value="30" selected>30</option>
+	<option value="60">60</option>
+	<option value="120">120</option>
+	<option value="300">300</option>
+	</select>
+	</td>
+
+	<td width="33.3%">
+	<b>Seconds to plot: </b>
+	<br>
+	<select name="windowdur" id="windowdur">
+	<option value="30">10</option>
+	<option value="90" selected>90</option>
+	<option value="180">18</option>
+	<option value="360">360</option>
+	<option value="900">900</option>
+	</select>
+	</td><td>
+	</tr>
+
+	<tr>
+	<td>
+	<b>Plot type</b>
+	<br>
+	<input type="radio" id="allz" name="plottype" value="allz" checked>
+	<label for="allz">All MV verticals</label><br>
+	<input type="radio" id="closez" name="plottype" value="closez">
+	<label for="closez">Close-in MV verticals</label><br>
+	<input type="radio" id="tfr" name="plottype" value="tfr">
+	<label for="tfr">TFR plot</label>
+	</td>
+
+	<td>
+	<b>Plot shape</b>
+	<br>
+	<input type="radio" id="landscape" name="plotshape" value="landscape" checked>
+	<label for="landscape">Landscape</label><br>
+	<input type="radio" id="portrait" name="plotshape" value="portrait">
+	<label for="portrait">Portrait</label><br>
+	<input type="radio" id="square" name="plotshape" value="square">
+	<label for="square">Square</label>
+	</td>
+
+	<td>
+	<b>Normalize traces</b>
+	<br>
+	<input type="radio" id="no" name="plotnorm" value="no" checked>
+	<label for="no">No</label><br>
+	<input type="radio" id="yes" name="plotnorm" value="yes">
+	<label for="yes">Yes</label><br>
+	<input type="radio" id="3c" name="plotnorm" value="3c">
+	<label for="3c">3C</label>
+	</td></tr>
+
+	<tr>
+	<td>
+	<input type="submit" value="fetchPlot">
+	</td>
+	</tr>
+
+	</table>
+
+	<hr>
+
+</form>
+</BODY>
