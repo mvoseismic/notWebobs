@@ -21,7 +21,7 @@ Various scripts written for the webobs installation at MVO. Available at http://
 | -------------| -------------------|
 | *disk_space.cgi* | Reports disk space on important data shares. |
 | *fetchMegaplot.cgi* | Create and show megaplots (in development).|
-| *mvo_alarms_last.cgi* | List recent alarms created by seismic system.|
+| *mvo_alarms_last.cgi* | List last 25 alarms created by seismic system.|
 | *seismic_monthly_plot_viewer.cgi* | Displays monthly montages of helicorders.|
 | *seismic_plot_viewer\*.cgi* | Versions of seismic_plot_viewer for tests.|
 
