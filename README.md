@@ -10,7 +10,7 @@ Various scripts written for the webobs installation at MVO. Available at http://
 
 | File       | Function |
 | -------------| -------------------|
-| *mbly6twit.html, mbly24twit.html* | Test of public-facing helicorder plot with embedded Twitter feed.Reports disk space on important data shares. |
+| *mbly6twit.html, mbly24twit.html* | Test of public-facing helicorder plot with embedded Twitter feed.|
 | *fetchplot.html* | Create and show megaplots (in development).|
 | *SeismicityDiary.html* | Web version of SeismicityDiary.xlxs, with links to plots.|
 | *status.html* | Seismic system status.|
