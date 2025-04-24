@@ -4,7 +4,7 @@ MVO seismic web pages for datailed information and testing.
 
 ## Description
 
-Various scripts written for the webobs installation at MVO. Available at http://webobs.mvo.ms:8080/.
+Various scripts written for the parallel Webobs installation at MVO. Available at http://webobs.mvo.ms:8080/.
 
 ## HTML pages
 
