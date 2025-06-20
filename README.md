@@ -2,7 +2,7 @@
 
 ## ~/src/notWebobs
 
-MVO seismic web pages for datailed information and testing.
+MVO seismic web pages for datailed information and testing. XX
 
 ## Description
 
